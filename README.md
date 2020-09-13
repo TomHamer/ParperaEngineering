@@ -32,6 +32,7 @@ Comment out "[Authorize]" on line 13 of Controllers/TransactionController.cs to 
 - Status must be either Completed, Cancelled or Pending
 - An acceptable json blob for a status update is {"Status": "Pending"}
 - the required data is loaded into the database automatically on startup
+- I made a decision not to format the decimal places as I felt this would be better done on the client side
 
 Example curl call for status update:
 
